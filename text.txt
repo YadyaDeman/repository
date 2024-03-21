@@ -1,0 +1,58 @@
+remote -> удаленный
+branch main -> osnovnaya, uge deystvuyushaya dlya potribitelya
+
+ветка - branch
+barch dev -> branch s kommitami
+
+
+Ignorirovat dlya github, sozdaem fayl: .gitignore , cherez / pishem: /now_repository.txt
+
+
+1. cherez Form - copiruem perozitoriy/cloniruyu
+
+git status -> proverit repozitoriy ili net
+
+git clone - sozdaem clone s github (https://github.com/YadyaDeman/tmp-cohorta37-sample-site)
+
+2. git add -A - говорим, что все изменения/fayli мы хотим отправить на сервер (кладём бумаги в конверт)
+
+3. git commit -m "ваше сообщение" - вы даёте название подготовленной пачке изменений (запечатываем конверт и пишем на нём тему)
+
+4. git push - отправляем пачку изменений на сервер (отправляем конверт по почте)
+
+5. pereadresovivaem k originalnomu repozitoriyu 
+v githabe - contribute=> Open pull request=> view pull request
+
+git pull -> proveryaem izmeneniya
+
+git status -  On branch main
+Your branch is up to date with 'origin/main'.
+
+git checkout -b dev -> new branch 'dev' ->sozdaem dev
+git checkout -b "html-page"
+git status -> proverit gde mi nahodimsya
+
+git checkout main -> pereklyuchitsya na main branch
+
+git branch -D readme -> udalit branch 'readme'
+
+
+
+
+Создание репозитория
+Создание репозитория с нуля
+Создаём репо на github
+Клонируем его к себе на компьютер через git clone {url} (нельзя создавать репо внутри другого репо)
+через ls -a можно увидеть есть ли папка .git в текущей папке
+Создаём какие-то файлы
+Отправляем новые файлы на сервер
+git add -A - говорим, что все изменения мы хотим отправить на сервер (кладём бумаги в конверт)
+git commit -m "{ваше сообщение}" - вы даёте название подготовленной пачке изменений (запечатываем конверт и пишем на нём тему)
+git push - отправляем пачку изменений на сервер (отправляем конверт по почте)
+Совместная разработка по модели fork-based
+Делаете форк репозитория на github
+Клонируете его к себе на компьютер git clone {url}
+Вносите изменения
+Отправляете изменения на сервер (см. выше: git add -A, git commit -m "{ваше сообщение}", git push)
+Делаете pull-request на github
+Владелец оригинального репозитория принимает или отклоняет ваш pull-request
